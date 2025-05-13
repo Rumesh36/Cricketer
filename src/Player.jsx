@@ -18,7 +18,7 @@ import Clip7 from "./assets/video/clip7.mp4";
 function Player() {
     return (
         <>
-            <h1 className="text-3xl font-bold mt-5 mb-8 text-center text-gray-800">
+            <h1 className="text-3xl font-bold mt-5 mb-8 text-center dark: text-gray-800 ">
                 Best Cricketers in the World
             </h1>
 
@@ -39,7 +39,7 @@ function Player() {
                     images={[Img4, Img5]}
                 />
                 <Cards
-                    name="Tribute Album"
+                    name="  Movements Album"
                     intro="This is an album of legendary cricketers and a tribute video."
                     images={[Img1, Img2, Img3]}
                     video={Clip2}
